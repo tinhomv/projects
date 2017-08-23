@@ -1,0 +1,73 @@
+.nbs-flexisel-container {
+position:relative;
+max-width:100%;
+}
+.nbs-flexisel-ul {
+position:relative;
+width:9999px;
+margin:0px;
+padding:0px;
+list-style-type:none;
+text-align:center;
+}
+.nbs-flexisel-inner {
+overflow:hidden;
+float:left;
+width:92%;
+margin: 0 4%;
+}
+.nbs-flexisel-item {
+float:left;
+margin:0px;
+padding:0px;
+position:relative;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+/*** Navigation ***/
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+width: 18px;
+height: 35px;
+position: absolute;
+cursor: pointer;
+z-index: 100;
+}
+.nbs-flexisel-nav-left {
+left: 5px;
+background: url(button-previous.png) no-repeat;
+}
+.nbs-flexisel-nav-right {
+right: 5px;
+background: url(button-next.png) no-repeat;
+}
+
+
+.flexisel-nossos-sites .nbs-flexisel-nav-left, .flexisel-nossos-sites .nbs-flexisel-nav-right {
+top: 2.2em !important;
+}
+
+/*** custom css ***/
+.nbs-flexisel-item img {
+position: relative;
+}
+
+.flexisel-item-title {
+max-height: 55px;
+overflow: hidden;
+margin-top: 10px;
+line-height: 18px;
+margin-bottom: 10px;
+}
+
+.flexisel-item-title a {
+font-size: 12px;
+color: #444;
+}
+
+.flexisel-item-price {
+font-weight: bold;
+color: #BA2A22;
+}
