@@ -1,2 +1,2 @@
-# Complete website online:
+# website online:
 # http://150anos.metodista.org.br
